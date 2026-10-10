@@ -1,0 +1,12 @@
+{
+  "name": "ri-6-calculadora",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Calculadora CLI em TypeScript para a atividade RI6 de POO",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "engines": { "node": ">=22" },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.9.0" }
+}
